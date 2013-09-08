@@ -1,6 +1,7 @@
 ###Lanching to Sinatra app to Heroku
 
-
+---
+####in terminal...
 ```bash
 
 mkdir my_sinatra_heroku_app
@@ -10,6 +11,8 @@ touch config.ru
 touch Gemfile
 
 ```
+
+---
 
 ####main.rb
 ```ruby
@@ -22,6 +25,8 @@ end
 
 ```
 
+---
+
 ####config.ru
 ```javasoft
 
@@ -30,6 +35,7 @@ run Sinatra::Application
 
 ```
 
+---
 
 ####Gemfile
 ```ruby
@@ -42,6 +48,7 @@ gem 'sinatra', '1.4.3'
 
 ---
 
+####in terminal...
 ```bash
 
 bundle
