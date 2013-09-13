@@ -1,6 +1,6 @@
 ###Lanching to Sinatra app to Heroku
 - Create your Sinatra application
-- Create your config.ur file
+- Create your config.ru file
 	- this is the instructions to heroku on how to start your application
 - Create your Gemfile
 	- this is where you list your required gems and ruby version
