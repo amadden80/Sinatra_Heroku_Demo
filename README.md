@@ -1,4 +1,20 @@
 ###Lanching to Sinatra app to Heroku
+- Create your Sinatra application
+- Create your config.ur file
+	- this is the instructions to heroku on how to start your application
+- Create your Gemfile
+	- this is where you list your required gems and ruby version
+- bundle
+	- this makes a .lock file which lists ALL of your applications dependencies
+- Make your applications folder a git repo 
+- heroku create
+	- this tells heroku to prepare a repo for you
+	- this adds a remote to your git repo called `heroku`
+- Push up to heroku!
+
+--- 
+
+##How-to:
 
 ---
 ####in terminal...
