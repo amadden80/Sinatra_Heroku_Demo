@@ -1,4 +1,4 @@
-###Lanching to Sinatra app to Heroku
+###Lanching Sinatra app to Heroku
 - Create your Sinatra application
 - Create your config.ru file
 	- this is the instructions to heroku on how to start your application
