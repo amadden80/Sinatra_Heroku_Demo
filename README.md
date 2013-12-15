@@ -33,7 +33,8 @@ touch Gemfile
 ####main.rb
 ```ruby
 
-require 'sinatra'
+require 'bundler/setup'
+Bundler.require(:default)
 
 get '/' do
 	"Your site has launched!!!"	
@@ -57,8 +58,8 @@ run Sinatra::Application
 ```ruby
 
 source "https://rubygems.org"
-ruby "1.9.3"
-gem 'sinatra', '1.4.3'
+ruby "2.0.0"
+gem 'sinatra'
 
 ```
 
