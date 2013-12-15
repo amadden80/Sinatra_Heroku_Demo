@@ -1,5 +1,5 @@
 require 'bundler/setup'
-Bundler.setup(:setup)
+Bundler.setup()
 
 get '/' do
 	"Your site has launched!!!"	
